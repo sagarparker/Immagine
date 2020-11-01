@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { globalStyles } from '../styles/global';
 
 export default function UploadPhotos() {
     return (
         
-            <View style={styles.container}>
+            <View style={globalStyles.container}>
                 <Text>Upload screen</Text>
             </View>
         
@@ -13,6 +14,6 @@ export default function UploadPhotos() {
 
 const styles = StyleSheet.create({
     container:{
-        padding:24;
+        padding:24
     }
 })
